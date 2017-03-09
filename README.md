@@ -129,7 +129,8 @@ Totals:           190         60        $1,902.81
 
 # Requirements
 
-You will create a series of prompts that will allow the user to create various types of data in your ordering system.
-1. Use the readline module to create an interface for prompting your user for input.
-1. Your team must have full test coverage for all functionality. Start with writing unit tests.
-1. You must use the db you created in the earlier SQL exercise. Choose one team member's implementation to be your group's database.
+You will create a series of prompts that will allow the user to create various types of data in your ordering system.  
+
+1. Use the readline module to create an interface for prompting your user for input.  
+1. Your team must have full test coverage for all functionality. Start with writing unit tests.  
+1. You must use the db you created in the earlier SQL exercise. Choose one team member's implementation to be your group's database.  
