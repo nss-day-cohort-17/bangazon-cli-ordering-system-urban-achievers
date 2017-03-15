@@ -134,4 +134,4 @@ You will create a series of prompts that will allow the user to create various t
 1. Use the npm module `prompt` to create an interface for prompting your user for input.
 1. Your team must have full test coverage for all functionality. Start with writing unit tests.  
 1. You must use the db you created in the earlier SQL exercise. Choose one team member's implementation to be your group's database.
-1. For the Product Popularity section, search for an npm module that will output tables to the console.
+1. For the Product Popularity section, search for an npm module that will output your report in table format to the console.
