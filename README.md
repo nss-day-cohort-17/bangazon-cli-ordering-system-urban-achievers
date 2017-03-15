@@ -113,7 +113,7 @@ When selecting this option, you will produce a command line report that looks li
 ```bash
 Product           Orders     Customers  Revenue
 *******************************************************
-AA Batteries      100         20        $990.90 
+AA Batteries      100         20        $990.90
 Diapers           50          10        $640.95
 Case of Cracki... 40          30        $270.96
 *******************************************************
@@ -131,6 +131,7 @@ Totals:           190         60        $1,902.81
 
 You will create a series of prompts that will allow the user to create various types of data in your ordering system.  
 
-1. Use the readline module to create an interface for prompting your user for input.  
+1. Use the npm module `prompt` to create an interface for prompting your user for input.
 1. Your team must have full test coverage for all functionality. Start with writing unit tests.  
-1. You must use the db you created in the earlier SQL exercise. Choose one team member's implementation to be your group's database.  
+1. You must use the db you created in the earlier SQL exercise. Choose one team member's implementation to be your group's database.
+1. For the Product Popularity section, search for an npm module that will output tables to the console.
