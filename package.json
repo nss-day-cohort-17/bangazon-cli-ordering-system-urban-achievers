@@ -1,0 +1,29 @@
+{
+  "name": "bangazon-cli-ordering-system-urban-achievers",
+  "version": "1.0.0",
+  "description": "Building a command line ordering service.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-urban-achievers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-urban-achievers/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-17/bangazon-cli-ordering-system-urban-achievers#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
