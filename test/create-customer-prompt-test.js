@@ -1,12 +1,14 @@
 'use strict'
 
-const {assert: {isFunction, isArray}} = require('chai')
-const  = require('../lib/create-customer/create-customer-prompt.js')
+const {assert: {isFunction, isArray, isObject}} = require('chai')
+const newCustomer = require('../lib/create-customer/create-customer-prompt.js')
 
-describe(' ', () => {
-  it('should', () => {
-
-  });
-
+describe('newCustomer', () => {
+  it('should return an object', () => {
+    return newCustomer()
+      .then((customerObj) => {
+        isObject(customerObj)
+      })
+    })
 
 })
