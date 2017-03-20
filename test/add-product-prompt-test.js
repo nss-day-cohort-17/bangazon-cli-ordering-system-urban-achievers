@@ -1,11 +1,11 @@
 'use strict'
 
 const {assert: {isFunction}} = require('chai')
-const addProduct = require('../lib/add-product/add-product-prompt.js')
+const productPrompt = require('../lib/add-product/add-product-prompt.js')
 
-describe('addProduct', () => {
+describe('productPrompt', () => {
   it('should be a function', () => {
-      isFunction(addProduct)
+      isFunction(productPrompt)
     })
 
 })
