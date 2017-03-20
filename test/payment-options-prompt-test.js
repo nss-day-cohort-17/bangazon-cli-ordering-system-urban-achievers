@@ -8,9 +8,14 @@ const getPaymentObj = require('../lib/payment-options/payment-options-prompt.js'
 // describe('payment-options-prompt', () => {
 describe('getPaymentObj', () => {
 	it('should be a function', () => {
-		isFunction()
+		let result = {}
+		isFunction(getPaymentObj)
+		})
+	it('should return an object', () => {
+		let paymentObj = {}
+		getPaymentObj
 	})
-})
+	})
 // describe('mainPrompt', () => {
 //   it('should be a function', () => {
 //     isFunction(mainPrompt)

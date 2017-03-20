@@ -4,7 +4,10 @@ const {assert: { isArray }} = require('chai');
 const getPaymentArray = require('../lib/payment-options/payment-options-args.js');
 
 describe('getPaymentArray', () => {
-	it('should be an array', () => {
-		isArray(paymentArray);
+	it('should return an array', () => {
+		return getPaymentArray()
+		.then((data) => {
+		isArray(data);
+		})
 	})
 })
