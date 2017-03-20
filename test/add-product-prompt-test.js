@@ -9,3 +9,10 @@ describe('productPrompt', () => {
     })
 
 })
+
+describe('setProductsPrompt', () => {
+  it('should return an object', () => {
+      isObject(setProductsPrompt())
+    })
+
+})
