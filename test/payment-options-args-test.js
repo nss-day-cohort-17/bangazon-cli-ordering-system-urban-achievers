@@ -1,11 +1,14 @@
 'use strict'
 
-const {assert: { isArray }} = require('chai');
+const {assert: { isArray, isFunction }} = require('chai');
 const getPaymentArray = require('../lib/payment-options/payment-options-args.js');
 
 describe('getPaymentArray', () => {
+	it('should be a function', () => {
+		isFunction(getPaymentArray)
+	})
 	it('should return an array', () => {
-		return getPaymentArray()
+		getPaymentArray()
 		.then((data) => {
 		isArray(data);
 		})
