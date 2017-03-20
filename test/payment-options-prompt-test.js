@@ -1,15 +1,16 @@
 'use strict'
 
-const {assert: {isObject, isFunction}} = require('chai');
+const {assert: {isFunction}} = require('chai');
 const getPaymentObj = require('../lib/payment-options/payment-options-prompt.js');
 
-describe('', () => {
+// console.log(isFunction)
 
+// describe('payment-options-prompt', () => {
+describe('getPaymentObj', () => {
+	it('should be a function', () => {
+		isFunction()
+	})
 })
-// describe('getPaymentObj', () => {
-// 	it('should be a function', () => {
-// 		isFunction()
-// 	})
 // describe('mainPrompt', () => {
 //   it('should be a function', () => {
 //     isFunction(mainPrompt)
