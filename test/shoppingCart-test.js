@@ -1,15 +1,16 @@
 'use strict'
 
 const {assert: {isFunction, isArray, isObject, typeOf}} = require('chai')
-const getCustomer = require('../lib/choose-active-customer/active-getCustomer.js')
+const shoppingCart = require('../lib/passing/shoppingCart.js')
 
 describe('choose-active-customer',()=>{
   describe('get customer from db',()=> {
     it('should be a function',()=>{
-      isFunction(getCustomer)
+      isFunction(shoppingCart)
     })
     it('should return a promise',()=> {
-     typeof(getCustomer, 'promise',"hey")
+     isArray(shoppingCart)
     })
+
   })
 })
